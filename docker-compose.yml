@@ -1,0 +1,42 @@
+services:
+  closet-service:
+    image: closet-service:latest
+    build:
+      context: ./ClosetService
+      dockerfile: Dockerfile
+    ports:
+      - "7001:80" 
+    environment:
+      - POSTGRES_PASSWORD=postgrespw
+    depends_on:
+      - closet-db
+
+
+  closet-db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespw
+      POSTGRES_DB: closet
+    ports:
+      - "5432:5432" 
+    volumes:
+      - closet-db-data:/var/lib/postgresql/data
+
+  outfit-service:
+    image: outfit-service:latest
+    build:
+      context: ./OutfitService
+      dockerfile: Dockerfile
+    ports:
+      - "7002:80"  # Exposes Outfit Service on localhost:7001
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./OutfitServiceData:/app/outfitservice_data
+
+volumes:
+  closet-db-data:
+    driver: local
+
+ 
