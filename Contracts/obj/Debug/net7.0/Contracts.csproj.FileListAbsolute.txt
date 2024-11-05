@@ -1,0 +1,12 @@
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/bin/Debug/net7.0/Contracts.deps.json
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/bin/Debug/net7.0/Contracts.dll
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/bin/Debug/net7.0/Contracts.pdb
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.csproj.AssemblyReference.cache
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.AssemblyInfoInputs.cache
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.AssemblyInfo.cs
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.csproj.CoreCompileInputs.cache
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.dll
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/refint/Contracts.dll
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/Contracts.pdb
+/Users/ashrithapabba/Desktop/Ash/WardrobeApp/Contracts/obj/Debug/net7.0/ref/Contracts.dll
